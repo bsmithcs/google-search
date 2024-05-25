@@ -10,12 +10,30 @@
             <a href="index.html">Google Search</a>
         </div>
         <div id="mid">
-            <form id="search-form" action="https://www.google.com/advanced_search">
-                <span>all these words:<input type="text" name="as_q"></span>
-                <span>this exact word or phrase:<input type="text" name="as_epq"></span>
-                <span>any of these words:<input type="text" name="as_oq"></span>
-                <span>none of these:<input type="text" name="as_eq"></span>
-                <input type="submit" value="Search">
+            <form id="search-form" action="https://www.google.com/search">
+                <div class="advanced-fields">
+                    <label for="as_q">all these words:</label>
+                    <input type="text" name="as_q">
+                </div>
+                <div class="advanced-fields">
+                    <label for="as_epq">this exact word or phrase:</label>
+                    <input type="text" name="as_epq">
+                </div>
+
+                <div class="advanced-fields">
+                    <label for="as_oq">any of thse words:</label>
+                    <input type="text" name="as_oq">
+                </div>
+
+                <div class="advanced-fields">
+                    <label for="as_eq">none of these words:</label>
+                    <input type="text" name="as_eq">
+                </div>
+                
+                <div id="advanced-search-button">
+                    <input type="submit" value="Search">
+                </div>
+                    
             </form>
         </div>
         <div id="bottom">

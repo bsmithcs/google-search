@@ -13,10 +13,6 @@ body {
     background-color: dimgray;
 }
 
-#search-form {
-    padding: 10px;
-}
-
 #top {
     display: flex;
     justify-content: flex-end;
@@ -65,9 +61,23 @@ input[type="submit"] {
     padding:10px 20px;
 }
 
-#search-form span {
+.advanced-fields {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    width: 100%;
+}
+
+#advanced-search-button {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#advanced-search-button input {
+    width: fit-content;
+    background-color: blue;
+    color: white;
 }
 
 #bottom {
